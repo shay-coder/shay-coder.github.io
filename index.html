@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shanzay Rajpoot | Machine Learning Engineer</title>
+<meta name="description" content="Portfolio of Shanzay Rajpoot, a machine learning engineer working in Python on intrusion detection, audio, and language projects.">
+
+<!-- Fonts: Space Grotesk (display), Inter (body), IBM Plex Mono (data/utility) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">SR<span class="dot" aria-hidden="true">.</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-mobile" id="navMobile" aria-label="Mobile">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Machine Learning Engineer</p>
+        <h1>Hi, I'm <span class="highlight">Shanzay Rajpoot</span>.<br>I build machine learning systems that make sense of complex signals.</h1>
+        <p class="hero-lede">
+          Python is my core language. I use it to design and train models that detect,
+          classify, and understand, from spotting network intrusions to recognizing
+          spoken languages from audio.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="https://github.com/shay-coder" target="_blank" rel="noopener">GitHub ↗</a>
+          <!-- Point this to a resume file you add to the assets/ folder, or remove the button -->
+          <a class="btn btn-text" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg id="networkSvg" viewBox="0 0 420 420" width="100%" height="100%"></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section reveal" id="about">
+    <div class="section-inner">
+      <p class="section-label">01. About</p>
+      <h2>About</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a machine learning engineer who really enjoys turning data into systems
+          that can make real decisions. Python is my core language, and I use it every
+          day for building and training models, from detecting network intrusions to
+          identifying spoken languages from short audio clips. I also learned C++ early
+          on, and it taught me to think about performance and write code that stays fast
+          and reliable even under load. I'm drawn to projects that sit at the edge of
+          security, audio and language, because each one forces me to understand how
+          machine learning actually behaves once it meets real world data. When I'm not
+          building models, I'm usually exploring a new dataset or reading about recent
+          research in ML.
+        </p>
+        <ul class="about-facts">
+          <li><span class="k">Based in</span><span class="v">Pakistan</span></li>
+          <li><span class="k">Core language</span><span class="v">Python</span></li>
+          <li><span class="k">Primary focus</span><span class="v">Machine Learning</span></li>
+          <li><span class="k">Also skilled in</span><span class="v">C++</span></li>
+          <li><span class="k">Open to</span><span class="v">Internships and collaborations</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt reveal" id="skills">
+    <div class="section-inner">
+      <p class="section-label">02. Skills</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3><span class="node node-ml" aria-hidden="true"></span>Machine Learning &amp; AI</h3>
+          <ul class="chip-list">
+            <li class="chip">scikit-learn</li>
+            <li class="chip">Model Evaluation</li>
+            <li class="chip">Signal Processing</li>
+            <li class="chip">NLP Fundamentals</li>
+            <li class="chip">Exploratory Data Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3><span class="node node-lang" aria-hidden="true"></span>Languages</h3>
+          <ul class="chip-list">
+            <li class="chip chip-core">Python <span class="chip-tag">core</span></li>
+            <li class="chip">C++</li>
+            <li class="chip">SQL</li>
+            <li class="chip">JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3><span class="node node-tools" aria-hidden="true"></span>Tools &amp; Platforms</h3>
+          <ul class="chip-list">
+            <li class="chip">Pandas / NumPy</li>
+            <li class="chip">Git &amp; GitHub</li>
+            <li class="chip">Jupyter</li>
+            <li class="chip">Linux</li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- To edit skills: open index.html and add/remove <li class="chip"> items above. -->
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section reveal" id="projects">
+    <div class="section-inner">
+      <p class="section-label">03. Projects</p>
+      <h2>Projects</h2>
+      <div class="projects-head">
+        <p class="projects-sub">Filter by language or category. Buttons below are generated automatically from each project's tags in <code>js/script.js</code>.</p>
+      </div>
+      <div class="filter-bar" id="filterBar" role="tablist" aria-label="Filter projects"></div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-alt reveal" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="section-label">04. Contact</p>
+      <h2>Let's build something.</h2>
+      <p class="contact-lede">Have a project, role, or idea in mind? I'd like to hear about it.</p>
+      <div class="contact-links">
+        <!-- Replace with your real email -->
+        <a class="contact-link" href="mailto:your.email@example.com">
+          <span class="k">Email</span><span class="v">your.email@example.com</span>
+        </a>
+        <a class="contact-link" href="https://github.com/shay-coder" target="_blank" rel="noopener">
+          <span class="k">GitHub</span><span class="v">github.com/shay-coder</span>
+        </a>
+        <!-- Add or remove links as you like (LinkedIn, Kaggle, X, etc.) -->
+        <a class="contact-link" href="#" target="_blank" rel="noopener">
+          <span class="k">LinkedIn</span><span class="v">add your profile link</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Shanzay Rajpoot. Built with plain HTML, CSS &amp; JS — hosted on GitHub Pages.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
